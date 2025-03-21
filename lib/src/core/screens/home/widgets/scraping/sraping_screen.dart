@@ -222,6 +222,7 @@ class ScrapingItemCard extends StatelessWidget {
         borderRadius: BorderRadius.circular(10),
         boxShadow: [
           BoxShadow(
+            // ignore: deprecated_member_use
             color: Colors.white.withOpacity(0.1),
             blurRadius: 10,
             offset: const Offset(0, 2),
